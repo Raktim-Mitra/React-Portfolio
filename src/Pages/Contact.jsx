@@ -14,7 +14,6 @@ import {
 import { motion,useInView } from "framer-motion";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import { useState,useEffect } from 'react';
-import emailjs from '@emailjs/browser';
 import { useToast } from '@chakra-ui/react';
  
 const Contact = () => {
