@@ -29,8 +29,8 @@ const Skills = () => {
   ];
 
   const certifications = [
-    { name: 'HTML 5', issuer: 'Infosys' , url: "/Infosys Html5.pdf" },
-    { name: 'Certificate of perticipation', issuer: 'Unstop' , url: "/Unstop Certificate.pdf"},
+    { name: 'Programming in Java', issuer: 'NPTEL' , url: "/Programming In Java.pdf" },
+    { name: 'Computer Network', issuer: 'NPTEL' , url: "/Computer Network And Internet Protocol.pdf"},
     { name: 'Internship completion certificate', issuer: 'Codsoft' , url: "/codesoft.pdf"},
 
     // Add more certifications here

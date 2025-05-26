@@ -6,6 +6,21 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
+      name:"Evolver",
+      imageUrl:"online exam.png",
+      description:"An online MCQ exam management system with student, teacher, and controller roles—ideal for conducting tests",
+      liveLink:"",
+      githubLink:"https://github.com/Raktim-Mitra/evolver"
+    },
+      {
+      name:"Agritech",
+      imageUrl:"harvesting.webp",
+      description:"AI-powered platform promoting sustainable farming through disease detection, crop recommendation, and smart analytics.",
+      liveLink:"agritech-hub-frontend.onrender.com",
+      githubLink:"https://github.com/Raktim-Mitra/AgriTech-Hub"
+
+    },
+    {
       name: "Blog App",
       imageUrl: "/image copy.png",
       description: "A full stack Blog app created using reactJS and appwrite for backend, used tiny-mce for text-editor",
@@ -19,21 +34,8 @@ const Projects = () => {
       liveLink: "https://code-editor-phi-sand.vercel.app/",
       githubLink: "https://github.com/Raktim-Mitra/Code-Editor"
     },
-    // Add more projects here...
-    {
-      name: "Recipe App",
-      imageUrl: "/image copy 1.png",
-      description: "A basic recipe app using React JS ",
-      liveLink: "https://live-link-one.com",
-      githubLink: "https://github.com/Raktim-Mitra/Food-Funda"
-    },
-    {
-      name: "A Crypto App",
-      imageUrl: "/image copy 2.png",
-      description: "An exciting UI design for Crypto App",
-      liveLink: "https://crypto-app-eight-sepia.vercel.app/",
-      githubLink: "https://github.com/Raktim-Mitra/Crypto-app"
-    },
+    
+   
   ];
   
   return (
