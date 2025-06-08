@@ -151,7 +151,7 @@ const Contact = () => {
                   <Input placeholder="Name" size="lg" name="name" bg="#424242" color="#FFFFFF" border="none" focusBorderColor="#BB86FC"   autoComplete="off"/>
                   <Input placeholder="Email" type="email" size="lg" name="email" bg="#424242" color="#FFFFFF" border="none" focusBorderColor="#BB86FC" autoComplete="off"/>
                   <Textarea placeholder="Message" size="lg" name="message" bg="#424242" color="#FFFFFF" border="none" focusBorderColor="#BB86FC" autoComplete="off"/>
-                  <Button colorScheme="blue" size="lg" type="submit">
+                  <Button colorScheme="purple" size="lg" type="submit">
                     Submit
                   </Button>
                 </VStack>
